@@ -11,7 +11,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=20cd56e60f87e0c4ddd2b6b2d6241e6f"
 S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
 
-DEPENDS .= "cmake"
+DEPENDS += "cmake virtual/egl"
 
 inherit cmake
 
